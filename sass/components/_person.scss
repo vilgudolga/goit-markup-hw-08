@@ -1,0 +1,58 @@
+.person-list {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 94px;
+    align-items: center;
+    gap: 30px;
+    padding-left: 0px;
+  }
+  .person-list__item {
+    background-color: var(--white-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.05), 0px 1px 1px rgba(0, 0, 0, 0.05), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    height: auto;
+    max-width: 270px;
+  }
+  .person-list__name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.187;
+    letter-spacing: 0.03em;
+    padding-top: 0px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin: 0px;
+  }
+  .person-list__job {
+    font-size: 16px;
+    line-height: 1.187;
+    letter-spacing: 0.03em;
+    color: var(--second-color);
+    padding-top: 0px;
+    text-align: center;
+    margin: 0px;
+  }
+  .person-list__social {
+    display: flex;
+    justify-content: center;
+    padding-top: 16px;
+    padding-bottom: 30px;
+    padding-left: 0px;
+  }
+  .person-list__svg:not(:last-of-type) {
+    margin-right: 10px;
+  }
+  .person-list__svglist {
+    fill:  #AFB1B8;
+    height: 44px;
+    width: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+.person-list__social:hover,
+.person-list__svglist:hover {
+  background-color: var(--main-color);
+  fill: var(--white-color);
+}

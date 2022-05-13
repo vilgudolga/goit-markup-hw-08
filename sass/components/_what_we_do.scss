@@ -1,0 +1,28 @@
+.image-list {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 94px;
+  }
+.image-list__item {
+    position: relative;
+    &:not(:last-child) {
+        padding-right: 30px;
+      }
+  }
+  .image-list__text {
+    position: absolute;
+    bottom: 0px;
+    width: 370px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    color: var(--white-color);
+    text-transform: uppercase;
+    background-color: rgba(47, 48, 58, 0.8);
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1rem;
+    letter-spacing: 0.03rem;
+  }
+  

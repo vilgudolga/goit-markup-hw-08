@@ -1,0 +1,25 @@
+.lorem-list {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 90px;
+  }
+  .lorem-list__item {
+    font-style: normal;
+  }
+  .lorem-list__tittle {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.03em;
+    color: black;
+  }
+  .lorem-list__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: var(--second-color);
+    padding-top: 0px;
+    padding-bottom: 50px;
+  }
